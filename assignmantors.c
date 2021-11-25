@@ -1,39 +1,20 @@
-﻿#include <stdio.h>
-
+#include <stdio.h>
 int main()
 {
-	float a=1;
-	if(a==1)
-	{
-		printf("0 for ==");
-	}
-	else
-	{
-		printf("1 for ==");
-	}
-	if(a>1)
-	{
-		printf("0 for >");
-	}
-	else
-	{
-		printf("1 for >");
-	}	
-	if(a==1)
-	{
-		printf("0 for ==");
-	}
-	else
-	{
-		printf("1 for ==");
-	}	
-	if(a==1)
-	{
-		printf("0 for ==");
-	}
-	else
-	{
-		printf("1 for ==");
-	}
-	return 0;
+    int a = 5, c;
+
+    c = a;      // c is 5
+    printf("c = %d\n", c);
+    c += a;     // c is 10 
+    printf("c = %d\n", c);
+    c -= a;     // c is 5
+    printf("c = %d\n", c);
+    c *= a;     // c is 25
+    printf("c = %d\n", c);
+    c /= a;     // c is 5
+    printf("c = %d\n", c);
+    c %= a;     // c = 0
+    printf("c = %d\n", c);
+
+    return 0;
 }
