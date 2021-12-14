@@ -5,7 +5,7 @@ int main ()
     printf("Enter the string");
 	gets(s);
    
- printf("You Entered %s",s);
+    printf("You Entered %s",s);
 	puts(s);
 	return 0; 
 }

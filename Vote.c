@@ -11,5 +11,7 @@ int main()
        printf("You would be able to caste your vote after %d year.\n",18-vote_age);
      }
   else
-     printf("Congratulation! You are eligible for casting your vote.\n");
+    { printf("Congratulation! You are eligible for casting your vote.\n");
+}
+return 0;
 }
