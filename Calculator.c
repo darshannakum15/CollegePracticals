@@ -10,7 +10,7 @@ int main()
 	scanf("%d",&num2);
 	for(;;)
 	{
-		printf("\nEnter the your option:\n");
+		printf("\nEnter your option:\n");
 		printf("1-Addition.\n2-Substraction.\n3-Multiplication.\n4-Division.\n5-Exit.\n");
 		scanf("%d",&opt);
 		switch(opt)
@@ -34,7 +34,7 @@ int main()
 			case 5: return 0;
 			break; 
 			default:printf("\n Enter correct option\n");
-			break; 
+			break;
 		}
 	}
 	getch();

@@ -3,7 +3,7 @@
 int main()
 {
     int unit;
-    float amt, total_amt, sur_charge;
+    float amt, total, sur;
 
     /* Input unit consumed from user */
     printf("Enter total units consumed: ");
@@ -32,10 +32,10 @@ int main()
      * Calculate total electricity bill
      * after adding surcharge
      */
-    sur_charge = amt * 0.20;
-    total_amt  = amt + sur_charge;
+    sur = amt * 0.20;
+    total  = amt + sur;
 
-    printf("Electricity Bill = Rs. %.2f", total_amt);
+    printf("Electricity Bill = Rs. %.2f", total);
 
     return 0;
 }
